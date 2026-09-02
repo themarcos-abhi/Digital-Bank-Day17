@@ -1,0 +1,1 @@
+</main><footer>Sentinel Gear demo store. Protective, emergency, outdoor and training equipment only. No weapons or ammunition.</footer></body></html>

@@ -1,0 +1,4 @@
+<?php require 'includes/header.php'; ?>
+<section class="hero"><div><span class="eyebrow">READY. RESPONSIBLE. RELIABLE.</span><h1>Preparedness gear for training, outdoor and emergency needs.</h1><p>Browse protective equipment, utility gear, lighting and first-aid products in a secure demo storefront.</p><a class="btn" href="shop.php">Browse Products</a></div></section>
+<section><h2>Four simple sections</h2><div class="grid"><article class="card"><h3>Home</h3><p>Overview and featured categories.</p></article><article class="card"><h3>Shop</h3><p>View products and add them to cart.</p></article><article class="card"><h3>Orders</h3><p>Track orders after login.</p></article><article class="card"><h3>Account</h3><p>Sign up, log in and manage your session.</p></article></div></section>
+<?php require 'includes/footer.php'; ?>
