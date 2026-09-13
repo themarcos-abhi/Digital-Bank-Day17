@@ -1,0 +1,6 @@
+<?php require_once __DIR__.'/../config.php'; $page=basename($_SERVER['PHP_SELF']); ?>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="MediBook demonstration healthcare appointment platform"><title><?=e($title??'MediBook')?></title><link rel="stylesheet" href="assets/css/style.css"></head><body>
+<header class="topbar"><a class="brand" href="index.php"><span class="brand-mark">M+</span><span>MediBook<small>BrightCare Health</small></span></a><button class="menu" aria-label="Toggle navigation" onclick="document.querySelector('nav').classList.toggle('open')">☰</button><nav>
+<a href="index.php">Home</a><a href="doctors.php">Doctors</a><a href="status.php">Service Status</a><a href="support.php">Support</a>
+<?php if(is_logged_in()): ?><a href="dashboard.php">Dashboard</a><a class="btn small" href="logout.php">Sign out</a><?php else: ?><a href="login.php">Login</a><a class="btn small" href="register.php">Register</a><?php endif;?></nav></header>
+<main><?php if($f=take_flash()):?><div class="alert <?=e($f[0])?>"><?=e($f[1])?></div><?php endif;?>

@@ -1,0 +1,1 @@
+<?php require 'config.php'; session_destroy(); session_start(); flash('success','You have signed out.'); header('Location: index.php'); ?>
