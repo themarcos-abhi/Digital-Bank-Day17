@@ -1,0 +1,1 @@
+The active Nginx production configuration is `frontend/nginx.conf`. It serves the built React files and proxies `/api/` to the backend container.
